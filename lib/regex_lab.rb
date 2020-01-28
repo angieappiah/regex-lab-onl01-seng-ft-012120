@@ -1,6 +1,10 @@
 def starts_with_a_vowel?(word)
-  word( "apple", "egg", "oat")
- puts (apple,egg,oat).match (/a/)
+  word( /[aeiou]/)
+  if word.match(/\A[aeiou]/i) == nil
+    return false
+  else
+    return true
+  end
 end
 
 end
