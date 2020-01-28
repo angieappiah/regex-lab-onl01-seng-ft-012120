@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  word( "apple", "egg", "oat").match (/a/)
+  word( "apple", "egg", "oat")
+ puts (apple,egg,oat).match (/a/)
 end
 
 end
